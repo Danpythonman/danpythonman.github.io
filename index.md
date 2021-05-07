@@ -25,8 +25,9 @@ Here is merge sort visualized:
 
 And here is selection sort:
 
-![Selection sort visualized by sorting rectangles of differnt heights](images\selection_sort_visualization.gif)
-
+<p align=center>
+<img src="images\selection_sort_visualization.gif" alt="Selection sort visualized by sorting rectangles of differnt heights">
+</p>
 
 ### Inspirational Website
 Link to GitHub repository: <https://github.com/Danpythonman/t_web1>
@@ -56,8 +57,9 @@ Among other things, like displaying information about the soil's moisture on an 
 
 Here is a picture of the setup (when it still required the second computer):
 
-![Automated plant watering system](images\automated_plant_watering_system.jpg)
-
+<p align=center>
+<img src="images\automated_plant_watering_system.jpg" alt="Automated plant watering system">
+</p>
 
 ### School Time-Tracking Program
 Link to GitHub repository: <https://github.com/Danpythonman/course_times>
@@ -72,11 +74,15 @@ The user can view this week's times by clicking a button.
 
 Here is what the GUI looks like:
 
-![Graphical user interface for the time tracking program](images\course_time_tracking.png)
+<p align=center>
+<img src="images\course_time_tracking.png" alt="Graphical user interface for the time tracking program">
+</p>
 
 At the end of the semester, the user can view the data collected throughout the semester in the form of graphs.
 This is acheived through the Matplotlib library in Python.
 This part is unfinished, but there are some available options for graphs.
 For example, here is a pie chart displaying which courses I spent the most time on:
 
-![Pie chart showing which courses consumed more time](images\course_time_tracking_graph.png)
+<p align=center>
+<img src="images\course_time_tracking_graph.png" alt="Pie chart showing which courses consumed more time">
+</p>
