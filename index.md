@@ -68,10 +68,10 @@ The time spent on each course is saved in JSON files on a weekly basis.
 The user can view this week's times by clicking a button.
 
 Here is what the GUI looks like:
-![Graphical user interface for the time tracking program](images\course_time_tracking.PNG)
+![Graphical user interface for the time tracking program](images\course_time_tracking.png)
 
 At the end of the semester, the user can view the data collected throughout the semester in the form of graphs.
 This is acheived through the Matplotlib library in Python.
 This part is unfinished, but there are some available options for graphs.
 For example, here is a pie chart displaying which courses I spent the most time on:
-![Pie chart showing which courses consumed more time](images\course_time_tracking_graph.PNG)
+![Pie chart showing which courses consumed more time](images\course_time_tracking_graph.png)
