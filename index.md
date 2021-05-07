@@ -19,7 +19,9 @@ The user can then click a button to sort the list with a specified sorting algor
 The list is sorted in real time which can be seen as the rectangles are sorted from shortest to tallest.
 Here is merge sort visualized:
 
-![Merge sort visualized by sorting rectangles of differnt heights](images\merge_sort_visualization.gif)
+<p align=center>
+<img src="images\merge_sort_visualization.gif" alt="Merge sort visualized by sorting rectangles of differnt heights">
+</p>
 
 And here is selection sort:
 
@@ -53,6 +55,7 @@ The sensor is put into the soil and the pump is submerged in water, with the tub
 Among other things, like displaying information about the soil's moisture on an OLED screen, the program monitors the moisture level of the soil, recognizes when the soil is dry, and activates the pump, watering the plant.
 
 Here is a picture of the setup (when it still required the second computer):
+
 ![Automated plant watering system](images\automated_plant_watering_system.jpg)
 
 
@@ -68,10 +71,12 @@ The time spent on each course is saved in JSON files on a weekly basis.
 The user can view this week's times by clicking a button.
 
 Here is what the GUI looks like:
+
 ![Graphical user interface for the time tracking program](images\course_time_tracking.png)
 
 At the end of the semester, the user can view the data collected throughout the semester in the form of graphs.
 This is acheived through the Matplotlib library in Python.
 This part is unfinished, but there are some available options for graphs.
 For example, here is a pie chart displaying which courses I spent the most time on:
+
 ![Pie chart showing which courses consumed more time](images\course_time_tracking_graph.png)
