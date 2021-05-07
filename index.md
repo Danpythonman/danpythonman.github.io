@@ -58,7 +58,7 @@ Among other things, like displaying information about the soil's moisture on an 
 Here is a picture of the setup (when it still required the second computer):
 
 <p align=center>
-<img src="images\automated_plant_watering_system.jpg" alt="Automated plant watering system">
+<img src="images\automated_plant_watering_system.jpg" alt="Automated plant watering system" width="250px">
 </p>
 
 ### School Time-Tracking Program
@@ -84,5 +84,5 @@ This part is unfinished, but there are some available options for graphs.
 For example, here is a pie chart displaying which courses I spent the most time on:
 
 <p align=center>
-<img src="images\course_time_tracking_graph.png" alt="Pie chart showing which courses consumed more time">
+<img src="images\course_time_tracking_graph.png" alt="Pie chart showing which courses consumed more time" width=300px>
 </p>
