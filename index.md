@@ -1,11 +1,10 @@
-Hello! Welcome to my Github Pages website. Here you will find information about me and the projects I have completed.
-
 ## About me
 I am currently an engineering student at York University and am in the process of declaring a major in software engineering.
 I excelled in coding the courses I took in high school and university.
 I have been coding as a hobby for a few years, mostly making small applications with GUIs in Python and experimenting with website development with Python and the standard HTML, CSS, and JavaScript.
 To make my larger projects available online, and to practice using Git, I have been making GitHub repositories for these projects.
 They are listed below.
+
 
 ## My Projects
 
@@ -30,6 +29,8 @@ And here is selection sort:
 ### Inspirational Website
 Link to GitHub repository: <https://github.com/Danpythonman/t_web1>
 
+View the website: <https://danpythonman.github.io/t_web1/main.html>
+
 This project is an inspirational website in HTML, CSS, and JavaScript that displays a new motivational quote every day.
 The user enters their name when prompted and the site remembers this name.
 A welcome message is displayed, along with the current time.
@@ -38,6 +39,7 @@ The quote is from the [They Said So Quotes REST API](https://quotes.rest/).
 The background image also changes daily, which the website gets from [NASA's Astronomy Picture of the Day API](https://api.nasa.gov/).
 Each time the user accesses the site, the two APIs are contacted to get the quote and picture, which are then displayed.
 This is done through JavaScript.
+
 
 ### Automated Plant Watering
 Link to GitHub repository: <https://github.com/Danpythonman/automated_plant_watering>
@@ -53,3 +55,23 @@ Among other things, like displaying information about the soil's moisture on an 
 Here is a picture of the setup (when it still required the second computer):
 ![Automated plant watering system](images\automated_plant_watering_system.jpg)
 
+
+### School Time-Tracking Program
+Link to GitHub repository: <https://github.com/Danpythonman/course_times>
+
+This project is a graphical user interface made with the PySimpleGUI library in Python.
+This project is used to measure how much time someone spends on each course in my semester, which I made so I could better evaluate my study habits.
+To use this, at the start of a study session or lecture, the user selects the appropriate course and clicks the time button.
+After finishing studying, the user clicks the time button again and the difference between the start and end times is calculated.
+The user can also manually add time to a specified course.
+The time spent on each course is saved in JSON files on a weekly basis.
+The user can view this week's times by clicking a button.
+
+Here is what the GUI looks like:
+[Graphical user interface for the time tracking program](images\course_time_tracking.PNG)
+
+At the end of the semester, the user can view the data collected throughout the semester in the form of graphs.
+This is acheived through the Matplotlib library in Python.
+This part is unfinished, but there are some available options for graphs.
+For example, here is a pie chart displaying which courses I spent the most time on:
+[Pie chart showing which courses consumed more time](images\course_time_tracking_graph.PNG)
